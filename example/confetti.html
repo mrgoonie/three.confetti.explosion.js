@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>TOP Group - Confetti</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				font-family: Monospace;
+				background-color: #000;
+				color: #fff;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#info {
+				color: #fff;
+				position: absolute;
+				top: 10px;
+				width: 100%;
+				text-align: center;
+				z-index: 100;
+				display: block;
+			}
+			#info a {
+				color: rgb(255, 255, 0);
+				font-weight: bold;
+			}
+			h1 {
+				/* margin: 0; */
+				font-size: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="info">
+			<a href="http://threejs.org">THREE.JS</a> - GPU Particle System
+			<h1>Explosion Confetti Effect</h1>
+		</div>
+
+		<main id="pConfetti">
+        </main>
+
+		<!-- three.js -->
+		<script type="text/javascript" src="js/plugins/threejs/three.js"></script>
+		<script type="text/javascript" src="js/plugins/threejs/controls/OrbitControls.js"></script>
+		<script type="text/javascript" src="js/plugins/threejs/WebGL.js"></script>
+		<script type="text/javascript" src="js/plugins/threejs/libs/stats.min.js"></script>
+		<!-- effect -->
+		<script type="text/javascript" src="../dist/three.confetti.explode.min.js"></script>
+		<script type="text/javascript" src="js/helper.js"></script>
+		<script type="text/javascript" src="js/demo.js"></script>
+	</body>
+</html>
