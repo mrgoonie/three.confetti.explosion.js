@@ -111,7 +111,7 @@ function ExplosionConfetti(options){
 				}
 			}
 
-			if(boom.children.length < 0){
+			if(boom.children.length <= 0){
 				boom.dispose();
 				scope.booms = DArray.remove(boom, scope.booms);
 			}
