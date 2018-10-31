@@ -6,6 +6,8 @@ https://mrgoonie.github.io/three.confetti.explosion.js/
 
 ![alt text](https://github.com/mrgoonie/three.confetti.explosion.js/raw/master/screenshot.png)
 
+![alt text](https://github.com/mrgoonie/three.confetti.explosion.js/raw/master/explain.jpg)
+
 # How to use:
 
 Include the plugin's javascript file:
