@@ -1,6 +1,9 @@
 # three.confetti.explosion.js
 The confetti explosion effect based on THREE.JS GPU Particle System
 
+# Live demo:
+https://mrgoonie.github.io/three.confetti.explosion.js/index.html
+
 # How to use:
 
 Include the plugin's javascript file:
