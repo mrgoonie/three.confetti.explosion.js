@@ -2,7 +2,7 @@
 The confetti explosion effect based on THREE.JS GPU Particle System
 
 # Live demo:
-https://mrgoonie.github.io/three.confetti.explosion.js/index.html
+https://mrgoonie.github.io/three.confetti.explosion.js/
 
 ![alt text](https://github.com/mrgoonie/three.confetti.explosion.js/raw/master/screenshot.png)
 
