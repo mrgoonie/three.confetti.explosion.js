@@ -80,6 +80,7 @@ function ExplosionConfetti(options){
 	this.update = function(){
 		if(Math.random() < scope.options.rate) scope.explode();
 
+		var particleAmount = 0;
 		for(var i=0; i < scope.booms.length; i++){
 			var boom = scope.booms[i];
 			
@@ -115,8 +116,11 @@ function ExplosionConfetti(options){
 				boom.dispose();
 				scope.booms = DArray.remove(boom, scope.booms);
 			}
-			
+
+			particleAmount += boom.children.length;
 		}
+
+		// document.getElementById("particleCount").innerHTML = particleAmount;
 	};
 
 	this.dispose = function(){
