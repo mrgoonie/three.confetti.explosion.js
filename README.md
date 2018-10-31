@@ -26,6 +26,15 @@ var confetti = new ExplosionConfetti({
 scene.add( confetti.object );
 ```
 
+Also in render function:
+```
+function render(){
+	...
+	if(confetti) confetti.update();
+	...
+}
+```
+
 # Remove:
 
 `confetti.dispose();`
